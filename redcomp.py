@@ -94,7 +94,7 @@ def writeCode(redcode):
 
 ##get the code we need to compile, skipping comments
 for line in fh:
-	line = line.replace("\n","").strip()
+	line = line.strip()
 	tmp = line.split(";")
 	line = tmp[0]
 	if line != "":
